@@ -1,0 +1,75 @@
+OFXHEADER:100
+            DATA:OFXSGML
+            VERSION:102
+            SECURITY:NONE
+            ENCODING:USASCII
+            CHARSET:1252
+            COMPRESSION:NONE
+            OLDFILEUID:NONE
+            NEWFILEUID:NONE
+
+            <OFX>
+                <BANKMSGSRSV1>
+                    <STMTTRNRS>
+                        <TRNUID>1</TRNUID>
+                        <STATUS>
+                            <CODE>0</CODE>
+                            <SEVERITY>INFO</SEVERITY>
+                        </STATUS>
+                        <STMTRS>
+                            <CURDEF>BRL</CURDEF>
+                            <BANKTRANLIST>
+                                
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240903</DTPOSTED>
+                    <TRNAMT>5699.02</TRNAMT>
+                    <FITID>20248243624975670</FITID>
+                    <NAME>Pix - Recebido - 3738 Transferência Fulano</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240322</DTPOSTED>
+                    <TRNAMT>-6278.48</TRNAMT>
+                    <FITID>20244989564236371</FITID>
+                    <NAME>Compra com Cartão - 8325 MP*KAKABENTO</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240827</DTPOSTED>
+                    <TRNAMT>-3718.0</TRNAMT>
+                    <FITID>20249294830292160</FITID>
+                    <NAME>Compra com Cartão - 7544 UBER *VIAGEM</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240105</DTPOSTED>
+                    <TRNAMT>-1859.23</TRNAMT>
+                    <FITID>20244266208661584</FITID>
+                    <NAME>Compra com Cartão - 7178 UBER *VIAGEM</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240128</DTPOSTED>
+                    <TRNAMT>-2229.01</TRNAMT>
+                    <FITID>20248703212734959</FITID>
+                    <NAME>Pagto cartão crédito - 8829 Banco XPTO</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240926</DTPOSTED>
+                    <TRNAMT>-6140.59</TRNAMT>
+                    <FITID>20244795140167188</FITID>
+                    <NAME>Compra com Cartão - 1318 SAMSCLUB</NAME>
+                </STMTTRN>
+            
+                            </BANKTRANLIST>
+                        </STMTRS>
+                    </STMTTRNRS>
+                </BANKMSGSRSV1>
+            </OFX>

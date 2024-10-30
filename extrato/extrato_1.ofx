@@ -1,0 +1,75 @@
+OFXHEADER:100
+            DATA:OFXSGML
+            VERSION:102
+            SECURITY:NONE
+            ENCODING:USASCII
+            CHARSET:1252
+            COMPRESSION:NONE
+            OLDFILEUID:NONE
+            NEWFILEUID:NONE
+
+            <OFX>
+                <BANKMSGSRSV1>
+                    <STMTTRNRS>
+                        <TRNUID>1</TRNUID>
+                        <STATUS>
+                            <CODE>0</CODE>
+                            <SEVERITY>INFO</SEVERITY>
+                        </STATUS>
+                        <STMTRS>
+                            <CURDEF>BRL</CURDEF>
+                            <BANKTRANLIST>
+                                
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240325</DTPOSTED>
+                    <TRNAMT>-9561.6</TRNAMT>
+                    <FITID>20247205620260855</FITID>
+                    <NAME>Pagto cartão crédito - 4406 Banco XPTO</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240815</DTPOSTED>
+                    <TRNAMT>-412.24</TRNAMT>
+                    <FITID>20244859701649212</FITID>
+                    <NAME>Compra com Cartão - 1201 IFOOD*RESTAURANTE</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240611</DTPOSTED>
+                    <TRNAMT>5439.53</TRNAMT>
+                    <FITID>20243477784479745</FITID>
+                    <NAME>TED Transf.Eletr.Disponiv - 7529 João Silva</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240515</DTPOSTED>
+                    <TRNAMT>6559.91</TRNAMT>
+                    <FITID>20241577499751218</FITID>
+                    <NAME>Pix - Recebido - 1904 Transferência Fulano</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241113</DTPOSTED>
+                    <TRNAMT>-2393.79</TRNAMT>
+                    <FITID>20247468964803226</FITID>
+                    <NAME>Compra com Cartão - 7072 IFOOD*RESTAURANTE</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240516</DTPOSTED>
+                    <TRNAMT>4818.59</TRNAMT>
+                    <FITID>20248524519188644</FITID>
+                    <NAME>Pix - Recebido - 3136 Transferência Fulano</NAME>
+                </STMTTRN>
+            
+                            </BANKTRANLIST>
+                        </STMTRS>
+                    </STMTTRNRS>
+                </BANKMSGSRSV1>
+            </OFX>

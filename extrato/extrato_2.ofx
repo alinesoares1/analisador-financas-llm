@@ -1,0 +1,75 @@
+OFXHEADER:100
+            DATA:OFXSGML
+            VERSION:102
+            SECURITY:NONE
+            ENCODING:USASCII
+            CHARSET:1252
+            COMPRESSION:NONE
+            OLDFILEUID:NONE
+            NEWFILEUID:NONE
+
+            <OFX>
+                <BANKMSGSRSV1>
+                    <STMTTRNRS>
+                        <TRNUID>1</TRNUID>
+                        <STATUS>
+                            <CODE>0</CODE>
+                            <SEVERITY>INFO</SEVERITY>
+                        </STATUS>
+                        <STMTRS>
+                            <CURDEF>BRL</CURDEF>
+                            <BANKTRANLIST>
+                                
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240603</DTPOSTED>
+                    <TRNAMT>4231.29</TRNAMT>
+                    <FITID>20242457291726530</FITID>
+                    <NAME>TED Transf.Eletr.Disponiv - 6968 João Silva</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241111</DTPOSTED>
+                    <TRNAMT>-5119.28</TRNAMT>
+                    <FITID>20242920728811454</FITID>
+                    <NAME>Pagamento de Boleto - 2531 Celesc - Energia</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241224</DTPOSTED>
+                    <TRNAMT>-1472.74</TRNAMT>
+                    <FITID>20246288743219624</FITID>
+                    <NAME>Pagamento de Boleto - 6695 Celesc - Energia</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240427</DTPOSTED>
+                    <TRNAMT>4935.75</TRNAMT>
+                    <FITID>20247609181453742</FITID>
+                    <NAME>Pix - Recebido - 7958 Transferência Fulano</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240609</DTPOSTED>
+                    <TRNAMT>9843.09</TRNAMT>
+                    <FITID>20248555799407074</FITID>
+                    <NAME>TED Transf.Eletr.Disponiv - 8917 João Silva</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240721</DTPOSTED>
+                    <TRNAMT>-3054.25</TRNAMT>
+                    <FITID>20242247702548936</FITID>
+                    <NAME>Compra com Cartão - 4910 SAMSCLUB</NAME>
+                </STMTTRN>
+            
+                            </BANKTRANLIST>
+                        </STMTRS>
+                    </STMTTRNRS>
+                </BANKMSGSRSV1>
+            </OFX>
