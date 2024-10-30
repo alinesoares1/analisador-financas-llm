@@ -22,50 +22,242 @@ OFXHEADER:100
                                 
                 <STMTTRN>
                     <TRNTYPE>DEBIT</TRNTYPE>
-                    <DTPOSTED>20240325</DTPOSTED>
-                    <TRNAMT>-9561.6</TRNAMT>
-                    <FITID>20247205620260855</FITID>
-                    <NAME>Pagto cartão crédito - 4406 Banco XPTO</NAME>
+                    <DTPOSTED>20240911</DTPOSTED>
+                    <TRNAMT>-3525.94</TRNAMT>
+                    <FITID>20242641107593160</FITID>
+                    <NAME>Compra com Cartão - 7638 POSTO*GASOLINA</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240904</DTPOSTED>
+                    <TRNAMT>7257.59</TRNAMT>
+                    <FITID>20245678678363225</FITID>
+                    <NAME>Pix - Recebido - 7237 Transferência Fulano</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241018</DTPOSTED>
+                    <TRNAMT>-9387.43</TRNAMT>
+                    <FITID>20249892185867566</FITID>
+                    <NAME>Compra com Cartão - 5204 SAMSCLUB</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241027</DTPOSTED>
+                    <TRNAMT>-7330.3</TRNAMT>
+                    <FITID>20243251515116031</FITID>
+                    <NAME>Pagamento de Boleto - 4402 Celesc - Energia</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241003</DTPOSTED>
+                    <TRNAMT>-934.56</TRNAMT>
+                    <FITID>20249820972307156</FITID>
+                    <NAME>Compra com Cartão - 8494 UBER *VIAGEM</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241004</DTPOSTED>
+                    <TRNAMT>-9027.66</TRNAMT>
+                    <FITID>20246974494797900</FITID>
+                    <NAME>Compra com Cartão - 9199 MP*KAKABENTO</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240909</DTPOSTED>
+                    <TRNAMT>-9418.68</TRNAMT>
+                    <FITID>20243070243033971</FITID>
+                    <NAME>Compra com Cartão - 5656 POSTO*GASOLINA</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241026</DTPOSTED>
+                    <TRNAMT>-5939.02</TRNAMT>
+                    <FITID>20243701640618999</FITID>
+                    <NAME>Pagto cartão crédito - 1823 Banco XPTO</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20241023</DTPOSTED>
+                    <TRNAMT>3773.46</TRNAMT>
+                    <FITID>20242829707722209</FITID>
+                    <NAME>TED Transf.Eletr.Disponiv - 2520 João Silva</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241016</DTPOSTED>
+                    <TRNAMT>-4664.58</TRNAMT>
+                    <FITID>20245706536792821</FITID>
+                    <NAME>Pagto cartão crédito - 2164 Banco XPTO</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241021</DTPOSTED>
+                    <TRNAMT>-4756.61</TRNAMT>
+                    <FITID>20246563519548911</FITID>
+                    <NAME>Compra com Cartão - 8804 NETFLIX.COM</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241006</DTPOSTED>
+                    <TRNAMT>-5140.69</TRNAMT>
+                    <FITID>20245010059304948</FITID>
+                    <NAME>Compra com Cartão - 8842 IFOOD*RESTAURANTE</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240908</DTPOSTED>
+                    <TRNAMT>-4004.56</TRNAMT>
+                    <FITID>20249485127019169</FITID>
+                    <NAME>Compra com Cartão - 2885 AMAZON MKTPLACE</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240906</DTPOSTED>
+                    <TRNAMT>7456.81</TRNAMT>
+                    <FITID>20243098098066097</FITID>
+                    <NAME>TED Transf.Eletr.Disponiv - 3340 João Silva</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241005</DTPOSTED>
+                    <TRNAMT>-1186.38</TRNAMT>
+                    <FITID>20249529370260966</FITID>
+                    <NAME>Compra com Cartão - 7957 SAMSCLUB</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240828</DTPOSTED>
+                    <TRNAMT>-5473.53</TRNAMT>
+                    <FITID>20248634167977944</FITID>
+                    <NAME>Compra com Cartão - 1031 UBER *VIAGEM</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>CREDIT</TRNTYPE>
+                    <DTPOSTED>20240820</DTPOSTED>
+                    <TRNAMT>4617.86</TRNAMT>
+                    <FITID>20244386873356559</FITID>
+                    <NAME>TED Transf.Eletr.Disponiv - 3764 João Silva</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241026</DTPOSTED>
+                    <TRNAMT>-3859.18</TRNAMT>
+                    <FITID>20245905840277717</FITID>
+                    <NAME>Compra com Cartão - 3434 POSTO*GASOLINA</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240927</DTPOSTED>
+                    <TRNAMT>-2831.92</TRNAMT>
+                    <FITID>20245414460994955</FITID>
+                    <NAME>Compra com Cartão - 6511 MP*KAKABENTO</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240924</DTPOSTED>
+                    <TRNAMT>-6870.51</TRNAMT>
+                    <FITID>20241766300628078</FITID>
+                    <NAME>Compra com Cartão - 2578 NETFLIX.COM</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241007</DTPOSTED>
+                    <TRNAMT>-7572.28</TRNAMT>
+                    <FITID>20248209796510494</FITID>
+                    <NAME>Compra com Cartão - 5062 AMAZON MKTPLACE</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20241021</DTPOSTED>
+                    <TRNAMT>-7973.83</TRNAMT>
+                    <FITID>20247831168681491</FITID>
+                    <NAME>Compra com Cartão - 9195 IFOOD*RESTAURANTE</NAME>
                 </STMTTRN>
             
                 <STMTTRN>
                     <TRNTYPE>DEBIT</TRNTYPE>
                     <DTPOSTED>20240815</DTPOSTED>
-                    <TRNAMT>-412.24</TRNAMT>
-                    <FITID>20244859701649212</FITID>
-                    <NAME>Compra com Cartão - 1201 IFOOD*RESTAURANTE</NAME>
-                </STMTTRN>
-            
-                <STMTTRN>
-                    <TRNTYPE>CREDIT</TRNTYPE>
-                    <DTPOSTED>20240611</DTPOSTED>
-                    <TRNAMT>5439.53</TRNAMT>
-                    <FITID>20243477784479745</FITID>
-                    <NAME>TED Transf.Eletr.Disponiv - 7529 João Silva</NAME>
-                </STMTTRN>
-            
-                <STMTTRN>
-                    <TRNTYPE>CREDIT</TRNTYPE>
-                    <DTPOSTED>20240515</DTPOSTED>
-                    <TRNAMT>6559.91</TRNAMT>
-                    <FITID>20241577499751218</FITID>
-                    <NAME>Pix - Recebido - 1904 Transferência Fulano</NAME>
+                    <TRNAMT>-513.01</TRNAMT>
+                    <FITID>20243433651497705</FITID>
+                    <NAME>Compra com Cartão - 8577 NETFLIX.COM</NAME>
                 </STMTTRN>
             
                 <STMTTRN>
                     <TRNTYPE>DEBIT</TRNTYPE>
-                    <DTPOSTED>20241113</DTPOSTED>
-                    <TRNAMT>-2393.79</TRNAMT>
-                    <FITID>20247468964803226</FITID>
-                    <NAME>Compra com Cartão - 7072 IFOOD*RESTAURANTE</NAME>
+                    <DTPOSTED>20241024</DTPOSTED>
+                    <TRNAMT>-9661.6</TRNAMT>
+                    <FITID>20249123496405304</FITID>
+                    <NAME>Compra com Cartão - 4186 AMAZON MKTPLACE</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240928</DTPOSTED>
+                    <TRNAMT>-2656.08</TRNAMT>
+                    <FITID>20242120453474850</FITID>
+                    <NAME>Compra com Cartão - 3761 AMAZON MKTPLACE</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240916</DTPOSTED>
+                    <TRNAMT>-5651.57</TRNAMT>
+                    <FITID>20241902532681179</FITID>
+                    <NAME>Pagamento de Boleto - 5242 Celesc - Energia</NAME>
                 </STMTTRN>
             
                 <STMTTRN>
                     <TRNTYPE>CREDIT</TRNTYPE>
-                    <DTPOSTED>20240516</DTPOSTED>
-                    <TRNAMT>4818.59</TRNAMT>
-                    <FITID>20248524519188644</FITID>
-                    <NAME>Pix - Recebido - 3136 Transferência Fulano</NAME>
+                    <DTPOSTED>20240924</DTPOSTED>
+                    <TRNAMT>2879.66</TRNAMT>
+                    <FITID>20249582876544727</FITID>
+                    <NAME>Pix - Recebido - 3374 Transferência Fulano</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240916</DTPOSTED>
+                    <TRNAMT>-5379.97</TRNAMT>
+                    <FITID>20246798874302788</FITID>
+                    <NAME>Compra com Cartão - 5405 AMAZON MKTPLACE</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240809</DTPOSTED>
+                    <TRNAMT>-9583.13</TRNAMT>
+                    <FITID>20245014610992651</FITID>
+                    <NAME>Compra com Cartão - 4351 NETFLIX.COM</NAME>
+                </STMTTRN>
+            
+                <STMTTRN>
+                    <TRNTYPE>DEBIT</TRNTYPE>
+                    <DTPOSTED>20240914</DTPOSTED>
+                    <TRNAMT>-6504.53</TRNAMT>
+                    <FITID>20246645060534760</FITID>
+                    <NAME>Compra com Cartão - 9900 MP*KAKABENTO</NAME>
                 </STMTTRN>
             
                             </BANKTRANLIST>
