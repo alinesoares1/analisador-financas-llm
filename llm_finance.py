@@ -24,7 +24,6 @@ for extrato in os.listdir("extrato"):
     df_temp["Data"] = df_temp["Data"].apply(lambda x: x.date())
     df = pd.concat([df, df_temp])
 df = df.set_index("ID")
-# df["Valor"] = 1
 
 # print(dir(transaction))
 # print(df.head())
@@ -42,7 +41,7 @@ import datetime
 
 _ = load_dotenv(find_dotenv())
 
-# Template da prompt de categorização
+# Template do prompt de categorização
 template = """
 Você é um analista de dados, trabalhando em um projeto de limpeza de dados.
 Seu trabalho é escolher uma categoria adequada para cada lançamento financeiro
@@ -67,12 +66,12 @@ Escolha a categoria deste item:
 Responda apenas com a categoria.
 """
 
-# Configurar modelo Groq
+# Modelo Groq
 prompt = PromptTemplate.from_template(template=template)
 chat = ChatGroq(model="llama-3.1-8b-instant", max_tokens=30)
 chain = prompt | chat | StrOutputParser()
 
-# Função para categorizar descrições com gerenciamento de requisições
+# Categoriza descrições com gerenciamento de requisições
 def categorize_descriptions(descriptions, batch_size=5):
     categories = []
     
@@ -93,23 +92,17 @@ def categorize_descriptions(descriptions, batch_size=5):
     
     return categories
 
-# Captura de descrições únicas
 unique_descriptions = df["Descrição"].unique()
 
-# Categorização das descrições
 unique_categorias = categorize_descriptions(unique_descriptions, batch_size=5)
 categories_map = dict(zip(unique_descriptions, unique_categorias))
 
 # Mapeando as categorias para todas as linhas originais
 df["Categoria"] = df["Descrição"].map(categories_map)
 
-# Filtrando para datas específicas
 df = df[df["Data"] >= datetime.date(2024, 3, 1)]
-
-# Resetando o índice para preservar a coluna 'ID'
 df.reset_index(inplace=True)
 
-# Salvando o DataFrame no arquivo CSV
 df.to_csv("finances2.csv", index=False)
 
 print("Categorização concluída e arquivo salvo.")
